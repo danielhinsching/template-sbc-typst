@@ -30,7 +30,7 @@ Customization according to the template
 
 #set text(
   size: 12pt,
-  font: "Times New Roman", // Reference the file in "fonts/times-new-roman.ttf"
+  font: "times-new-roman", // Reference the file in "fonts/times-new-roman.ttf"
   tracking: -0.2pt,
 )
 
@@ -139,16 +139,16 @@ must be between [], as in a Typst common table.
 // Title
 #align(center)[
   #text(size: 16pt)[
-    *Instructions for Authors of SBC Conferences
-      \
-      Papers and Abstracts*
+    *Riscos associados ao uso excessivo de assistentes virtuais
+    \
+    e dispositivos de AIOTs*
   ]]
 
 #v(12pt)
 
 // Authors
 // Insert here the authors names
-#let authors = ("Daniel Hinsching", "Eduardo Forget", "José Eduardo Kahl")
+#let authors = ("Daniel dos S. Hinsching", "Eduardo G. dos Santos", "José E. Kahl")
 
 // Script to generate formated names
 #let counter = 1
@@ -185,7 +185,7 @@ must be between [], as in a Typst common table.
 
 // Emails
 // Insert the emails
-#let emails = ("daniel@ifc.edu.br", "eduardo@ifc.edu.br", "jose@ifc.edu.br")
+#let emails = ("danielsantoshinsching@gmail.com", "dudugx05@gmail.com", "josekahl333@gmail.com")
 
 // Script to generate formated emails
 #let counter = 1
@@ -272,7 +272,7 @@ All images and illustrations should be in black-and-white, or gray tones, except
 = References
 Bibliographic references must be unambiguous and uniform. We recommend giving the author names references in brackets, e.g. @knuth:84, @boulic:91, and @smith:99.
 
-The references must be listed using 12 point font size, with 6 points of space before each reference. The first line of each reference should not be indented, while the subsequent should be indented by 0.5 cm.
+The references must be listed using 12 point font size, with 6 points of space before each r>eference. The first line of each reference should not be indented, while the subsequent should be indented by 0.5 cm.
 
 
 // References page
@@ -286,7 +286,7 @@ All references must be in the bib/references.bib
 
 #set par(spacing: 12pt)
 #bibliography(
-  "bib/sbc-template.bib",
+  "bib/references.bib",
   style: "bib/sbc-apalike.csl",
   title: "References",
 )
