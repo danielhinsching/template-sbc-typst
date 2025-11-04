@@ -1,7 +1,7 @@
 # Protocolo de Revisão Sistemática
 
-## Formação da Questão de Pesquisa
-**Riscos associados ao uso excessivo de assistentes virtuais e dispositivos de AIoTs**
+Este documento reserva os protocolos de revisão sistemática usados na prototipação do artigo**Riscos associados ao uso excessivo de assistentes virtuais e dispositivos de AIoTs** feito em forma de trabalho acadêmico para a matéria **Metodologia Cientifica** do curso de **Bacharelado em Sistemas de Informação** do Instituto Federal Catarinense - Câmpus Araquari.
+Documento feito em grupo por: Daniel dos Santos, Eduardo dos Santos e José Eduardo Kahl.
 
 ## Strings de Busca
 
@@ -35,8 +35,7 @@
 
 ## Artigos e Referências
 
-### Estudo sobre a percepção de privacidade da Alexa (Google Academy)
-https://periodico.unifatecpr.com.br/index.php/rtf/article/view/41
+### [Estudo sobre a percepção de privacidade da Alexa (Google Academy)](https://periodico.unifatecpr.com.br/index.php/rtf/article/view/41)
 
 > “A Internet das Coisas permite que os objetos sejam monitorados e controlados remotamente [...] resultando em maior eficiência e precisão.”  
 > “Os equipamentos precisam ter suas funções atribuídas automaticamente [...] e devem ser capazes de se adaptar a qualquer advento.”  
@@ -52,8 +51,7 @@ https://periodico.unifatecpr.com.br/index.php/rtf/article/view/41
 
 ---
 
-### Um estudo do impacto da adoção de assistente pessoal virtual sobre a preocupação com a privacidade (Google Academy)
-https://conferencias.fgv.br/clav/article/view/1014
+### [Um estudo do impacto da adoção de assistente pessoal virtual sobre a preocupação com a privacidade (Google Academy)](https://conferencias.fgv.br/clav/article/view/1014)
 
 > “As novas tecnologias disponíveis para os ambientes de negócios permitiram ao consumidor uma gama de benefícios.”  
 > “Composição de cesta de compra mais adequada, com sugestões de produtos complementares.”  
@@ -65,8 +63,7 @@ https://conferencias.fgv.br/clav/article/view/1014
 
 ---
 
-### Riscos de Segurança em Assistentes Virtuais (Google Academy)
-https://ojs.revistacontemporanea.com/ojs/index.php/home/article/view/6747
+### [Riscos de Segurança em Assistentes Virtuais (Google Academy)](https://ojs.revistacontemporanea.com/ojs/index.php/home/article/view/6747)
 
 > “Apoiar a legislação na leitura destes processos [...] para analisar dados e identificar cláusulas que não têm conformidade com a legislação.”  
 > “Um assistente virtual utiliza dessas informações para poder entregar um serviço mais personalizado e otimizado com as preferências de seu usuário.”  
@@ -80,8 +77,7 @@ https://ojs.revistacontemporanea.com/ojs/index.php/home/article/view/6747
 
 ---
 
-### Desafios da Privacidade nos Assistentes Virtuais Pessoais
-https://www.iscap.pt/edicoesceos/index.php/mne-rj/article/view/194
+### [Desafios da Privacidade nos Assistentes Virtuais Pessoais](https://www.iscap.pt/edicoesceos/index.php/mne-rj/article/view/194)
 
 > “O propósito deste artigo foi perceber quais os riscos que podem existir quando os dispositivos AVP são utilizados.”  
 > “Constatou-se que existem vários riscos, os quais podem ser desencadeados por falhas mecânicas, falhas de software, falhas na cloud, falta de autenticação forte e de transparência das empresas.”  
@@ -93,8 +89,7 @@ https://www.iscap.pt/edicoesceos/index.php/mne-rj/article/view/194
 
 ---
 
-### A Assistente Virtual “Alexa” como Fonte de Prova na Persecução Penal
-https://archivum.grupomarista.org.br/pergamumweb/vinculos/0000a1/
+### [A Assistente Virtual “Alexa” como Fonte de Prova na Persecução Penal](https://archivum.grupomarista.org.br/pergamumweb/vinculos/0000a1/)
 
 > “O presente artigo versa sobre a utilização de dispositivos de assistentes virtuais como fonte de prova no processo crime, indagando sobre a possibilidade dessas evidências violarem preceitos fundamentais como o direito à intimidade e ao sigilo da comunicação.”  
 > “A presença desses dispositivos na vida das pessoas e a sua capacidade de gravar comandos chamou a atenção dos investigadores criminais, que passaram a visualizá-los como mais um objeto capaz de ajudar na resolução de crimes.”  
@@ -106,8 +101,7 @@ https://archivum.grupomarista.org.br/pergamumweb/vinculos/0000a1/
 
 ---
 
-### Alexa, uma espiã silenciosa: a (im)possibilidade da submissão das assistentes virtuais ao processo penal brasileiro no desígnio da persecução penal probatória
-http://repositorio.undb.edu.br/handle/areas/1011
+### [Alexa, uma espiã silenciosa: a (im)possibilidade da submissão das assistentes virtuais ao processo penal brasileiro no desígnio da persecução penal probatória](http://repositorio.undb.edu.br/handle/areas/1011)
 
 > “A vida humana e a tecnologia sempre estiveram ligadas desde os primórdios da sociedade, o que ocorreu foi um fortalecimento desta relação no decorrer da evolução humana.”  
 > “A popularização de assistentes virtuais no contexto brasileiro pode coincidir com o Direito Processual Penal em breve, e o ordenamento jurídico precisa estar preparado para que direitos não sejam violados.”  
@@ -119,8 +113,7 @@ http://repositorio.undb.edu.br/handle/areas/1011
 
 ---
 
-### Cybersecurity in the Age of Generative AI
-https://www.sciencedirect.com/science/article/pii/S0167739X25004017
+### [Cybersecurity in the Age of Generative AI](https://www.sciencedirect.com/science/article/pii/S0167739X25004017)
 
 > “Users appreciate the convenience of smart speakers, yet they remain deeply concerned about how their personal conversations are recorded, stored, and possibly misused.”  
 > Os usuários valorizam a conveniência dos alto-falantes inteligentes, mas permanecem profundamente preocupados com a forma como suas conversas pessoais são gravadas, armazenadas e potencialmente utilizadas de forma indevida.  
@@ -136,8 +129,7 @@ https://www.sciencedirect.com/science/article/pii/S0167739X25004017
 
 ---
 
-### Generative Artificial Intelligence and Large Language Models in Smart Healthcare Applications
-https://www.sciencedirect.com/science/article/pii/S1476927125002725
+### [Generative Artificial Intelligence and Large Language Models in Smart Healthcare Applications](https://www.sciencedirect.com/science/article/pii/S1476927125002725)
 
 > “In recent years, generative artificial intelligence (AI) and large language models (LLMs) have ushered in a transformative era for smart healthcare applications.”  
 > Nos últimos anos, a inteligência artificial generativa (IA) e os grandes modelos de linguagem (LLMs) inauguraram uma era de transformação para aplicações de saúde inteligentes.  
@@ -153,8 +145,7 @@ https://www.sciencedirect.com/science/article/pii/S1476927125002725
 
 ---
 
-### Ishii, K. (2019). Comparative Legal Study on Privacy and Personal Data Protection for Robots Equipped with Artificial Intelligence
-https://doi.org/10.1007/s00146-017-0758-8
+### [Ishii, K. (2019). Comparative Legal Study on Privacy and Personal Data Protection for Robots Equipped with Artificial Intelligence](https://doi.org/10.1007/s00146-017-0758-8)
 
 > “This paper undertakes a comparative legal study to analyze the challenges of privacy and personal data protection posed by Artificial Intelligence (‘AI’) embedded in Robots, and to offer policy suggestions.”  
 > Este artigo realiza um estudo jurídico comparativo para analisar os desafios da privacidade e da proteção de dados pessoais colocados pela Inteligência Artificial (‘IA’) incorporada em robôs, e para oferecer sugestões de política.  
