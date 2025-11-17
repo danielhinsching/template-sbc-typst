@@ -36,7 +36,7 @@ Customization according to the template
 
 #set par(
   justify: true,
-  spacing: 10pt,
+  leading: 10pt,
   first-line-indent: 1.27cm,
 )
 
@@ -222,10 +222,12 @@ must be between [], as in a Typst common table.
 = Introdução
 Com o passar dos anos e o avanço da tecnologia, novos meio de automação residencial surgiram, permitindo que usuários controlem diversos dispositivos em sua casa de maneira eficiente e prática. Assistentes virtuais, como Amazon Alexa, Google Assistant e Apple Siri, tornaram-se populares, oferecendo controle por voz para uma variedade de dispositivos conectados à Internet, conhecidos como AIOTs (Artificial Intelligence of Things). Esses dispositivos incluem lâmpadas inteligentes, termostatos, câmeras de segurança, entre outros. No entanto, o uso excessivo dessas tecnologias pode acarretar riscos significativos à privacidade de quem os usa, além de abrir portas para vulnerabilidades de segurança, que podem ser exploradas por agentes maliciosos, comprometendo a segurança do ambiente doméstico e a integridade dos dados das pessoas que utilizam desses assistentes virtuais, além do avanço dos casos de venda de dados pessoais para terceiros sem o consentimento dos usuários. Este artigo tem como objetivo explorar os riscos associados ao uso excessivo de assistentes virtuais e dispositivos AIOTs, destacando as principais vulnerabilidades do uso de maneira excessiva e precipitada dessas tecnologias, além disso vamos abordar maneiras de combater esses riscos e ideializar uma melhor utilização dessas tecnologias de automação.
 
-
-
-= CD-ROMs and Printed Proceedings
-In some conferences, the papers are published on CD-ROM while only the abstract is published in the printed Proceedings. In this case, authors are invited to prepare two final versions of the paper. One, complete, to be published on the CD and the other, containing only the first page, with abstract and ``resumo'' (for papers in Portuguese).
+= Metodologia
+A metodologia adotada neste estudo baseia-se em uma abordagem qualitativa, exploratória e bibliográfica, permitindo uma análise aprofundada sobre os riscos de privacidade e segurança associados ao uso de assistentes virtuais e dispositivos AIOTs. A seguir, são descritos os procedimentos utilizados:
++ *Revisão Bibliográfica*: Foi realizada uma revisão sistemática de leitura de diferentes artigos que tratam sobre o tema de assistentes virtuais, dispositivos AIOTs, privacidade e segurança digital. Foram consultadas diversass bases de dados acadêmicas, artigos científicos na área determinada e relatórios técnicos relevantes para o tema.
++ *Análise de Casos*: Foram analisados casos documentados de vulnerabilidades e incidentes de segurança relacionados ao uso de assistentes virtuais e dispositivos AIOTs. Essa análise permitiu identificar padrões comuns e as principais ameaças enfrentadas pelos usuários dessas tecnologias.
++ *Comparação de Tecnologias e Protocolos*: Durante a elaboração da pesquisa também foram comparadas diferentes tecnologias e empresas responsáveis por assistentes virtuais de acesso ao público, avaliando seus termos de uso, políticas de privacidade e medidas tomadas para garantia de segurança dos dados dos usuários.
++ *Síntese dos riscos Identificados*: Baseando-se nas informações coletadas, foi realizada a elaboração dos principais riscos associados ao uso em excesso de assistentes virtuais e dispositivos de AIOTs, destacando os problemas mais críticos e as possíveis consquências do mal uso dessas tecnologias.
 
 = Sections and Paragraphs
 Section titles must be in boldface, 13pt, flush left. There should be an extra 12 pt of space before each title. Section numbering is optional. The first paragraph of each section should not be indented, while the first lines of subsequent paragraphs should be indented by 1.27 cm.
@@ -261,13 +263,8 @@ In tables, try to avoid the use of colored or shaded backgrounds, and avoid thic
 )
 
 = Images
-All images and illustrations should be in black-and-white, or gray tones, excepting for the papers that will be electronically available (on CD-ROMs, internet, etc.). The image resolution on paper should be about 600 dpi for black-and-white images, and 150-300 dpi for grayscale images.  Do not include images with excessive resolution, as they may take hours to print, without any visible difference in the result.
 
 = References
-Bibliographic references must be unambiguous and uniform. We recommend giving the author names references in brackets, e.g. @knuth:84, @boulic:91, and @smith:99.
-
-The references must be listed using 12 point font size, with 6 points of space before each r>eference. The first line of each reference should not be indented, while the subsequent should be indented by 0.5 cm.
-
 
 // References page
 
@@ -278,7 +275,7 @@ All references must be in the bib/references.bib
 */
 #pagebreak()
 
-#set par(spacing: 12pt)
+#set par(leading: 12pt)
 #bibliography(
   "bib/references.bib",
   style: "bib/sbc-apalike.csl",
