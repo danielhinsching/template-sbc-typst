@@ -230,10 +230,8 @@ A metodologia adotada neste estudo baseia-se em uma abordagem qualitativa, explo
 + *Síntese dos riscos Identificados*: Baseando-se nas informações coletadas, foi realizada a elaboração dos principais riscos associados ao uso em excesso de assistentes virtuais e dispositivos de AIOTs, destacando os problemas mais críticos e as possíveis consquências do mal uso dessas tecnologias.
 
 = Sections and Paragraphs
-Section titles must be in boldface, 13pt, flush left. There should be an extra 12 pt of space before each title. Section numbering is optional. The first paragraph of each section should not be indented, while the first lines of subsequent paragraphs should be indented by 1.27 cm.
-
 == Subsections
-The subsection titles must be in boldface, 12pt, flush left.
+
 
 = Figures and Captions
 Figure and table captions should be centered if less than one line (Figure 1), otherwise justified and indented by 0.8cm on both margins, as shown in Figure 2. The caption font must be Helvetica, 10 point, boldface, with 6 points of space before and after each caption. #figure(image("img/fig1.jpg"), caption: [A typical figure])
@@ -263,16 +261,7 @@ In tables, try to avoid the use of colored or shaded backgrounds, and avoid thic
 )
 
 = Images
-
 = References
-
-// References page
-
-/*
-You can make a reference inline by calling the author name
-followed by a collon and the year in the reference.
-All references must be in the bib/references.bib
-*/
 #pagebreak()
 
 #set par(leading: 12pt)
