@@ -206,29 +206,23 @@ must be between [], as in a Typst common table.
 
   // Abstract
   #text(style: "italic")[
-    *Abstract.* This meta-paper describes the style to be used in articles and short papers for SBC conferences. For papers in English, you should add just an abstract while for the papers in Portuguese, we also ask for an abstract in Portuguese (``resumo''). In both cases, abstracts should not have more than 10 lines and must be in the first page of the paper.
+    *Abstract.* Parte abstrata do artigo em inglês deve ser inserida aqui ao final da escrita do projeto.
   ]
 
   \
 
   // Resumo
   #text(style: "italic", par(first-line-indent: 0em)[
-    *Resumo.* Este meta-artigo descreve o estilo a ser usado na confecção de artigos e resumos de artigos para publicação nos anais das conferências organizadas pela SBC. É solicitada a escrita de resumo e abstract apenas para os artigos escritos em português. Artigos em inglês deverão apresentar apenas abstract. Nos dois casos, o autor deve tomar cuidado para que o resumo (e o abstract) não ultrapassem 10 linhas cada, sendo que ambos devem estar na primeira página do artigo.
+    *Resumo.* Parte do resumo do artigo em português deve ser inserida aqui ao final da escrita do projeto.
   ])
 ])
 
 \
 
-= General Information
-All full papers and posters (short papers) submitted to some SBC conference, including any supporting documents, should be written in English or in Portuguese. The format paper should be A4 with single column, 3.5 cm for upper margin, 2.5 cm for bottom margin and 3.0 cm for lateral margins, without headers or footers. The main font must be Times, 12 point nominal size, with 6 points of space before each paragraph. Page numbers must be suppressed.
-
-Full papers must respect the page limits defined by the conference. Conferences that publish just abstracts ask for *one*-page texts.
-
-= First Page
-The first page must display the paper title, the name and address of the authors, the abstract in English and ``resumo'' in Portuguese (``resumos'' are required only for papers written in Portuguese). The title must be centered over the whole page, in 16 point boldface font and with 12 points of space before itself. Author names must be centered in 12 point font, bold, all of them disposed in the same line, separated by commas and with 12 points of space after the title. Addresses must be centered in 12 point font, also with 12 points of space after the authors' names. E-mail addresses should be written using font Courier New, 10 point nominal size, with 6 points of space before and 6 points of space after.
+= Introdução
+Com o passar dos anos e o avanço da tecnologia, novos meio de automação residencial surgiram, permitindo que usuários controlem diversos dispositivos em sua casa de maneira eficiente e prática. Assistentes virtuais, como Amazon Alexa, Google Assistant e Apple Siri, tornaram-se populares, oferecendo controle por voz para uma variedade de dispositivos conectados à Internet, conhecidos como AIOTs (Artificial Intelligence of Things). Esses dispositivos incluem lâmpadas inteligentes, termostatos, câmeras de segurança, entre outros. No entanto, o uso excessivo dessas tecnologias pode acarretar riscos significativos à privacidade de quem os usa, além de abrir portas para vulnerabilidades de segurança, que podem ser exploradas por agentes maliciosos, comprometendo a segurança do ambiente doméstico e a integridade dos dados das pessoas que utilizam desses assistentes virtuais, além do avanço dos casos de venda de dados pessoais para terceiros sem o consentimento dos usuários. Este artigo tem como objetivo explorar os riscos associados ao uso excessivo de assistentes virtuais e dispositivos AIOTs, destacando as principais vulnerabilidades do uso de maneira excessiva e precipitada dessas tecnologias, além disso vamos abordar maneiras de combater esses riscos e ideializar uma melhor utilização dessas tecnologias de automação.
 
 
-The abstract and ``resumo'' (if is the case) must be in 12 point Times font, indented 0.8cm on both sides. The word *Abstract* and *Resumo*, should be written in boldface and must precede the text.
 
 = CD-ROMs and Printed Proceedings
 In some conferences, the papers are published on CD-ROM while only the abstract is published in the printed Proceedings. In this case, authors are invited to prepare two final versions of the paper. One, complete, to be published on the CD and the other, containing only the first page, with abstract and ``resumo'' (for papers in Portuguese).
