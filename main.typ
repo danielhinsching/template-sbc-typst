@@ -139,9 +139,7 @@ must be between [], as in a Typst common table.
 // Title
 #align(center)[
   #text(size: 16pt)[
-    *Riscos associados ao uso excessivo de assistentes virtuais
-    \
-    e dispositivos de AIOTs*
+    *Riscos associados ao uso excessivo de assistentes virtuais*
   ]]
 
 #v(12pt)
@@ -222,7 +220,7 @@ must be between [], as in a Typst common table.
 = INTRODUÇÃO
 Com o passar dos anos e o avanço da tecnologia, novos meio de automação residencial surgiram, permitindo que usuários controlem diversos dispositivos em sua casa de maneira eficiente e prática. Assistentes virtuais, como Amazon Alexa, Google Assistant e Apple Siri, tornaram-se populares, oferecendo controle por voz para uma variedade de dispositivos conectados à Internet, conhecidos como AIOTs (Artificial Intelligence of Things). Esses dispositivos incluem lâmpadas inteligentes, termostatos, câmeras de segurança, entre outros @silva:22.
 
-Em contrapartida, o uso excessivo dessas tecnologias pode acarretar riscos significativos à privacidade de quem os usa, além de abrir portas para vulnerabilidades de segurança, que podem ser exploradas por agentes maliciosos, comprometendo a segurança do ambiente doméstico e a integridade dos dados das pessoas que utilizam desses assistentes virtuais @mendonca:24, além do avanço dos casos de venda de dados pessoais para terceiros sem o consentimento dos usuários. Este artigo tem como objetivo explorar os riscos associados ao uso excessivo de assistentes virtuais e dispositivos AIOTs, destacando as principais vulnerabilidades do uso de maneira excessiva e precipitada dessas tecnologias, além disso vamos abordar maneiras de combater esses riscos e ideializar uma melhor utilização dessas tecnologias de automação.
+Em contrapartida, o uso excessivo dessas tecnologias pode acarretar riscos significativos à privacidade de quem os usa, além de abrir portas para vulnerabilidades de segurança, que podem ser exploradas por agentes maliciosos, comprometendo a segurança do ambiente doméstico e a integridade dos dados das pessoas que utilizam desses assistentes virtuais @mendonca:24, além do avanço dos casos de venda de dados pessoais para terceiros sem o consentimento dos usuários. Este artigo tem como objetivo explorar os riscos associados ao uso excessivo de assistentes virtuais, destacando as principais vulnerabilidades do uso de maneira excessiva e precipitada dessas tecnologias, além disso vamos abordar maneiras de combater esses riscos e ideializar uma melhor utilização dessas tecnologias de automação.
 
 = METODOLOGIA
 A metodologia adotada neste estudo baseia-se em uma abordagem qualitativa, exploratória e bibliográfica, permitindo uma análise aprofundada sobre os riscos de privacidade e segurança associados ao uso de assistentes virtuais e dispositivos
@@ -236,7 +234,7 @@ Foi realizada uma busca usando 5 (cinco) bases de dados: IEEE Xplore, ACM Digita
         [Termos de Busca],
         [Information Security OR Cybersecurity OR Data Security],
         [Virtual Assistants OR Voice Assistants OR Smart Assistants],
-        [AIoT OR Internet of Things OR IoT Devices OR Intelligent IoT],
+        [AIoT AND Voice Assistant OR AIoT AND Privacy],
         [AIoT AND Privacy OR Smart Assistants AND Privacy],
 
     ),
@@ -271,7 +269,19 @@ Devido a popularização do uso indevido e excessivo de assistentes virtuais, no
 É muito notável o uso constante e, em grande parte dos casos comuns, indevido dos usuários sob tais assistentes virtuais. Muitos, por não entenderem o funcionamento correto do aparelho e/ou _software_ acabam não percebendo certos detalhes que podem acarretar, e acarretam, em muitas brechas no contexto de privacidade. Uma boa exemplificação de uma falha na falsa segurança proposta pelas distribuidoras de dispositivos utilizadores de assistentes virtuais seriam as conversas que podem ser extraídas de aparelhos que o áudio nunca é desligado para um "melhor atendimento do dispositivo" levando a áudios de conversas privadas completamente disassociadas a qualquer contexto semelhante à chamada do evento para a "ativação" do aparelho, comprometendo, assim, a privacidade e a segurança do utilizador @mendonca:24.
 
 == Vazamento e Armazenamento de dados
+jose
 
+= USO DEVIDO DE ASSISTENTES VIRTUAIS
+O uso devido da tecnologia presente na atualidade é uma pauta muito pouco presente em contextos educacionais e até banalizada insocialmente. Isso também se desmembra para o uso indevido de assistentes virtuais, onde o consumidor não se preocupa com a sua própria segurança digital.
+
+== Consciência do utente
+daniel
+
+== Configuração adequada de segurança
+daniel
+
+= CONCLUSÃO
+jose e daniel
 
 #pagebreak()
 
