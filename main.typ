@@ -265,23 +265,43 @@ Na conteporâniedade do nosso atual milênio, o uso cotidiano e constante de tec
 
 Devido a popularização do uso indevido e excessivo de assistentes virtuais, nota-se grandes falhas na percepção do funcionamento de tais aparelhos. É muito comum o processo de pensamento que concluí em uma forte segurança nessas ferramentas já que o ativamento se vem apenas, e somente, via fala pré-definida para a utilização do mesmo @silva:22.
 
+Além disso, o uso excessivo contribui para a naturalização da vigilância contínua, já que a convivência constante com dispositivos de escuta ativa leva o usuário a ignorar os riscos envolvidos. Esse processo, muitas vezes inconsciente, faz com que se aceite passivamente a coleta massiva de dados, expondo-se cada vez mais a falhas de segurança e a interferências externas.
+
 == Gravação constante
 É muito notável o uso constante e, em grande parte dos casos comuns, indevido dos usuários sob tais assistentes virtuais. Muitos, por não entenderem o funcionamento correto do aparelho e/ou _software_ acabam não percebendo certos detalhes que podem acarretar, e acarretam, em muitas brechas no contexto de privacidade. Uma boa exemplificação de uma falha na falsa segurança proposta pelas distribuidoras de dispositivos utilizadores de assistentes virtuais seriam as conversas que podem ser extraídas de aparelhos que o áudio nunca é desligado para um "melhor atendimento do dispositivo" levando a áudios de conversas privadas completamente disassociadas a qualquer contexto semelhante à chamada do evento para a "ativação" do aparelho, comprometendo, assim, a privacidade e a segurança do utilizador @mendonca:24.
 
+O comportamento de escuta permanente ocorre não apenas quando o usuário interage com o dispositivo, mas também durante o estado de espera. Quanto mais tempo o assistente virtual permanece ativo — geralmente como consequência do uso excessivo — maior é a probabilidade de captação de áudios não intencionais (false wake-ups), potencialmente contendo informações sensíveis. Segundo pesquisas recentes, essas gravações podem até ser acessadas por funcionários para fins de aprimoramento do sistema, sem garantia de anonimização.
+
 == Vazamento e Armazenamento de dados
-jose
+Armazenamento de dados de usuários é uma prática comum entre as empresas que desenvolvem assistentes virtuais. Esses dados são frequentemente utilizados para melhorar os serviços oferecidos, personalizar a experiência do usuário e para fins de marketing. No entanto, o armazenamento inadequado ou o vazamento desses dados pode levar a sérias consequências para a privacidade dos usuários @silva:22.
+
+Ataques cibernéticos direcionados a assistentes virtuais podem resultar no vazamento de informações pessoais sensíveis, como conversas privadas, dados financeiros e informações de localização. Esses ataques podem ser realizados por meio de vulnerabilidades no software do assistente virtual ou por meio de técnicas de engenharia social para enganar os usuários a fornecerem informações confidenciais @mendonca:24.
+
+Outro fator agravante é que, na maioria dos casos, os usuários não possuem controle efetivo sobre os dados já armazenados. Mesmo após solicitar a exclusão, estudos indicam que parte dessas informações pode permanecer retida nos servidores das empresas, possibilitando o uso indevido ou a exposição futura em caso de incidentes de segurança. Assim, quanto mais frequente for a utilização do assistente virtual, mais extenso será o histórico comportamental construído, incluindo hábitos domésticos, rotinas horárias e até padrões de interação familiar.
 
 = USO DEVIDO DE ASSISTENTES VIRTUAIS
-O uso devido da tecnologia presente na atualidade é uma pauta muito pouco presente em contextos educacionais e até banalizada insocialmente. Isso também se desmembra para o uso indevido de assistentes virtuais, onde o consumidor não se preocupa com a sua própria segurança digital.
+O uso devido da tecnologia presente na atualidade é uma pauta muito pouco presente em contextos educacionais e até banalizada informalmente. Isso também se desmembra para o uso indevido de assistentes virtuais, onde o consumidor não se preocupa com a sua própria segurança digital. É de extrema importância que o usuário tenha ciência dos riscos que o uso excessivo de tais tecnologias pode acarretar, para que assim possa fazer um uso consciente e seguro das mesmas @oliveira:23.
+
+O uso devido de assistentes virtuais está intrinsecamente ligado à adoção de práticas de responsabilidade digital, conceito que engloba não apenas a utilização funcional da tecnologia, mas também a preocupação com os impactos éticos, sociais e jurídicos decorrentes dessa interação. Em um cenário no qual assistentes virtuais atuam como mediadores entre o usuário e o ambiente digital, compreender seus mecanismos de coleta, processamento e compartilhamento de dados torna-se uma competência fundamental para garantir a preservação da privacidade e a conformidade com princípios legais, como os estabelecidos pela Lei Geral de Proteção de Dados (LGPD).
 
 == Consciência do utente
-daniel
+A conscientização do usuário sobre os riscos associados ao uso excessivo de assistentes virtuais é fundamental para mitigar possíveis ameaças à privacidade e segurança. Campanhas educativas, workshops e materiais informativos podem ajudar a disseminar conhecimento sobre boas práticas no uso dessas tecnologias @ribeiro:24. Além disso, é importante que os usuários estejam cientes das políticas de privacidade e termos de uso dos assistentes virtuais que utilizam, para entender como seus dados são coletados, armazenados e utilizados pelas empresas responsáveis @oliveira:23.
+
+Além disso, é necessário promover uma postura crítica em relação ao uso automatizado dessas ferramentas, evitando que a familiaridade e a conveniência tecnológica conduzam à aceitação passiva de dispositivos que permanecem constantemente em escuta ativa @isadora:23. Os usuários devem ser incentivados a questionar e avaliar continuamente as implicações de privacidade associadas ao uso de assistentes virtuais, adotando uma abordagem proativa na proteção de seus dados pessoais.
 
 == Configuração adequada de segurança
-daniel
+A configuração adequada das opções de segurança e privacidade nos assistentes virtuais é essencial para proteger os dados dos usuários. Isso inclui a ativação de autenticação de dois fatores, a revisão regular das permissões concedidas aos aplicativos conectados ao assistente virtual e a desativação de recursos que não são necessários para o uso cotidiano @silva:22. Além disso, é recomendável que os usuários revisem e excluam periodicamente o histórico de comandos e interações armazenadas pelos assistentes virtuais, reduzindo a quantidade de dados sensíveis disponíveis.
+
+A utilização segura também envolve restringir a integração automática com outros dispositivos inteligentes, de forma a limitar a atuação do assistente virtual apenas aos recursos estritamente necessários. Para isso, recomenda-se que o usuário desative permissões invasivas e revise periodicamente os acessos concedidos, evitando que o dispositivo interfira em sistemas críticos do ambiente doméstico ou profissional.
 
 = CONCLUSÃO
-jose e daniel
+Com isso, vê-se que o artigo pôde analisar os riscos associados ao uso excessivo de assistentes virtuais, com ênfase em vulnerabilidades relacionadas à privacidade, armazenamento de dados e comportamento digital dos usuários. Observou-se que a crescente integração desses dispositivos no cotidiano, impulsionada pela facilidade de uso e automação de tarefas, tem contribuído para a naturalização da vigilância contínua e da coleta massiva de informações pessoais, muitas vezes sem o devido consentimento ou compreensão do usuário sobre o funcionamento dessas tecnologias @silva:22.
+
+Entre os riscos identificados, destacam-se a gravação constante, a possibilidade de acesso indevido por terceiros — incluindo funcionários das empresas desenvolvedoras — e o armazenamento inseguro de dados sensíveis, os quais podem ser comprometidos em situações de ataques cibernéticos ou falhas de segurança @mendonca:24. Adicionalmente, verificou-se que o uso excessivo desses assistentes potencializa tais ameaças, uma vez que amplia a exposição temporal e comportamental dos usuários, tornando-os mais suscetíveis a violações de privacidade.
+
+Por outro lado, identificou-se que o uso devido dessas tecnologias pode mitigar significativamente os riscos levantados. Tal prática envolve a adoção de uma postura crítica e consciente por parte do usuário, aliada à implementação de medidas técnicas de segurança, como a restrição de permissões, a revisão periódica de históricos de interação e a configuração de autenticação de múltiplos fatores @ribeiro:24; @silva:22. Nesse contexto, a educação digital assume papel essencial no processo de conscientização, permitindo que o usuário compreenda melhor as implicações éticas, sociais e jurídicas do uso de assistentes virtuais, promovendo um comportamento mais responsável e seguro @oliveira:23.
+
+Conclui-se, portanto, que a utilização de assistentes virtuais pode ser considerada benéfica e funcional desde que realizada de maneira equilibrada e informada. Recomenda-se que futuras pesquisas aprofundem a análise sobre a relação entre educação digital e comportamento tecnológico, bem como explorem soluções técnicas capazes de reduzir a coleta de dados desnecessários e ampliar a transparência nos processos de processamento e armazenamento. Dessa forma, será possível avançar para um modelo de uso tecnológico mais sustentável, ético e centrado na proteção do usuário.
 
 #pagebreak()
 
