@@ -1,23 +1,3 @@
-/*
-This is a Typst template for SBC Conferences papers,
-and is made based on an already existing template,
-originally written in LaTeX:
-https://www.overleaf.com/latex/templates/sbc-conferences-template/blbxwjwzdngr
-*/
-
-
-/*
-The fonts used in this template are problably not
-in the Typst compiler, so you will need to reference
-them in all of the 'font: "font"' fields across the
-file.
-I will comment it when necessary.
-*/
-
-
-/*
-Customization according to the template
-*/
 #set page(
   paper: "a4",
   margin: (
@@ -30,7 +10,7 @@ Customization according to the template
 
 #set text(
   size: 12pt,
-  font: "Times New Roman", // Reference the file in "fonts/times-new-roman.ttf"
+  font: "Times New Roman", 
   tracking: -0.2pt,
 )
 
@@ -40,7 +20,6 @@ Customization according to the template
   first-line-indent: 1.27cm,
 )
 
-// Set table customization
 #set table(
   align: (x, y) => (
     if x > 0 or y == 0 { center } else { left }
@@ -57,40 +36,29 @@ Customization according to the template
   }
 }
 #show table: set text(
-  font: "Helvetica", // Reference the file in "fonts/heltica.ttf"
+  font: "Helvetica",
   size: 10pt,
 )
 
 
-// Table with caption
-// This function simulates a table with a caption above it.
-
-/*
-Call it like this:
-#table-caption(quantity_of_columns, array_of_cells, caption)
-
-The array_of_cells must be between () and the items
-must be between [], as in a Typst common table.
-*/
-
-#let table-counter = counter("table-counter") // Init table counter
+#let table-counter = counter("table-counter")
 #let table-with-caption(cols, cells, caption) = {
   align(center)[
     #block(width: 13cm)[
       #v(6pt)
-      #table-counter.step() // Increment counter in 1 for table counting
+      #table-counter.step()
 
       // Caption
       #align(center)[
         #text(
           weight: "bold",
-          font: "Helvetica", // Reference the file in "fonts/heltica.ttf"
+          font: "Helvetica",
           size: 10pt,
         )[Table #context table-counter.display(). #caption]
       ]
 
       #v(6pt)
-      // Table
+
       #table(
         columns: cols,
         ..cells
@@ -99,8 +67,6 @@ must be between [], as in a Typst common table.
   ]
 }
 
-
-// Set heading customization
 #set heading(
   numbering: "1.",
 )
@@ -111,8 +77,6 @@ must be between [], as in a Typst common table.
 #show heading.where(level: 5): set text(size: 12pt)
 #show heading.where(level: 6): set text(size: 12pt)
 
-
-// Set figure customization
 #show figure.caption: set text(
   font: "Helvetica",
   weight: "bold",
@@ -124,19 +88,6 @@ must be between [], as in a Typst common table.
   separator: ". ",
 )
 
-
-
-
-/*
-============================================
-=            START OF DOCUMENT             =
-============================================
-*/
-
-
-
-
-// Title
 #align(center)[
   #text(size: 16pt)[
     *Riscos associados ao uso excessivo de assistentes virtuais*
@@ -144,11 +95,8 @@ must be between [], as in a Typst common table.
 
 #v(12pt)
 
-// Authors
-// Insert here the authors names
 #let authors = ("Daniel dos S. Hinsching", "Eduardo G. dos Santos", "José E. Kahl")
 
-// Script to generate formated names
 #let counter = 1
 #align(center)[
   #for i in authors {
@@ -161,13 +109,10 @@ must be between [], as in a Typst common table.
 
 #v(12pt)
 
-// Adresses
-// Insert the adresses
 #let adresses = (
   ("Instituto Federal Catarinense – Câmpus Araquari (IFC)", "Araquari – SC – Brazil"),
 )
 
-// Script to generate formated adresses
 #let counter = 1
 #align(center)[
   #for (i, j) in adresses {
@@ -181,11 +126,8 @@ must be between [], as in a Typst common table.
 
 #v(6pt)
 
-// Emails
-// Insert the emails
 #let emails = ("danielsantoshinsching@gmail.com", "dudugx05@gmail.com", "josekahl333@gmail.com")
 
-// Script to generate formated emails
 #let counter = 1
 #align(center)[
   #for i in emails {
@@ -198,18 +140,14 @@ must be between [], as in a Typst common table.
 
 #v(6pt)
 
-// Abstract and Resumo
 #align(center, block(width: 21cm - 8.2cm)[
   #set align(left)
 
-  // Abstract
   #text(style: "italic")[
     *Abstract.* The advancement of home automation, along with the popularization of virtual assistants like Amazon Alexa and Google Assistant, has brought practicality and efficiency to the control of Internet-connected devices (IoT). However, the excessive use of these technologies raises risks to user privacy, ultimately opening doors to security vulnerabilities exploited by malicious actors. Through case analysis and comparison of terms of use protocols, it was possible to analyze results indicating a lack of user awareness and concern for security, thus increasing threats. Conversely, the study proposes that adopting responsible digital practices, coupled with education on how to prevent problems, studying usage along with periodic review of permissions and histories, is fundamental for the conscious, ethical, and secure use of these AIoT devices, thus preventing unnecessary exposure to privacy and security risks.
   ]
 
   \
-
-  // Resumo
   #text(style: "italic", par(first-line-indent: 0em)[
     *Resumo.* O avanço da automação residencial juntamente com a popularização dos assistentes virtuais, como Amazon Alexa e Google Assistent, trouxe praticidade e eficiência para o controle de dispositivos conectados à Internet (IoT). No entanto, o uso em excesso dessas tecnologias levanta riscos para a privacidade dos usuários, que acabam por abrir portas para vulnerabilidades de segurança explorados por agentes maliciosos. Com análise de casos e comparação de protocolos de termos de uso, foi possível analisar resultados que indicam a ausência de consciência do usuário e a falta de preocupação com a segurança potencializando as ameaças. Em contrapartida, o estudo propõe que a adoção de práticas de responsabilidade digital, aliada à educação de como se prevenir, estudando o uso juntamente com uma revisão periódica de permissões e históricos, é fundamental para um uso consciente, ético e seguro desses dispositivos AIoT, impedindo assim a exposição desnecessária a riscos de privacidade e segurança.
   ])
@@ -294,7 +232,7 @@ A configuração adequada das opções de segurança e privacidade nos assistent
 
 A utilização segura também envolve restringir a integração automática com outros dispositivos inteligentes, de forma a limitar a atuação do assistente virtual apenas aos recursos estritamente necessários. Para isso, recomenda-se que o usuário desative permissões invasivas e revise periodicamente os acessos concedidos, evitando que o dispositivo interfira em sistemas críticos do ambiente doméstico ou profissional.
 
-= CONCLUSÃO
+= Conclusão
 Com isso, vê-se que o artigo pôde analisar os riscos associados ao uso excessivo de assistentes virtuais, com ênfase em vulnerabilidades relacionadas à privacidade, armazenamento de dados e comportamento digital dos usuários. Observou-se que a crescente integração desses dispositivos no cotidiano, impulsionada pela facilidade de uso e automação de tarefas, tem contribuído para a naturalização da vigilância contínua e da coleta massiva de informações pessoais, muitas vezes sem o devido consentimento ou compreensão do usuário sobre o funcionamento dessas tecnologias @silva:22.
 
 Entre os riscos identificados, destacam-se a gravação constante, a possibilidade de acesso indevido por terceiros — incluindo funcionários das empresas desenvolvedoras — e o armazenamento inseguro de dados sensíveis, os quais podem ser comprometidos em situações de ataques cibernéticos ou falhas de segurança @mendonca:24. Adicionalmente, verificou-se que o uso excessivo desses assistentes potencializa tais ameaças, uma vez que amplia a exposição temporal e comportamental dos usuários, tornando-os mais suscetíveis a violações de privacidade.
@@ -309,5 +247,5 @@ Conclui-se, portanto, que a utilização de assistentes virtuais pode ser consid
 #bibliography(
   "bib/references.bib",
   style: "bib/sbc-apalike.csl",
-  title: "References",
+  title: "Referências",
 )
