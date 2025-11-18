@@ -204,14 +204,14 @@ must be between [], as in a Typst common table.
 
   // Abstract
   #text(style: "italic")[
-    *Abstract.* Parte abstrata do artigo em inglês deve ser inserida aqui ao final da escrita do projeto.
+    *Abstract.* The advancement of home automation, along with the popularization of virtual assistants like Amazon Alexa and Google Assistant, has brought practicality and efficiency to the control of Internet-connected devices (IoT). However, the excessive use of these technologies raises risks to user privacy, ultimately opening doors to security vulnerabilities exploited by malicious actors. Through case analysis and comparison of terms of use protocols, it was possible to analyze results indicating a lack of user awareness and concern for security, thus increasing threats. Conversely, the study proposes that adopting responsible digital practices, coupled with education on how to prevent problems, studying usage along with periodic review of permissions and histories, is fundamental for the conscious, ethical, and secure use of these AIoT devices, thus preventing unnecessary exposure to privacy and security risks.
   ]
 
   \
 
   // Resumo
   #text(style: "italic", par(first-line-indent: 0em)[
-    *Resumo.* Parte do resumo do artigo em português deve ser inserida aqui ao final da escrita do projeto.
+    *Resumo.* O avanço da automação residencial juntamente com a popularização dos assistentes virtuais, como Amazon Alexa e Google Assistent, trouxe praticidade e eficiência para o controle de dispositivos conectados à Internet (IoT). No entanto, o uso em excesso dessas tecnologias levanta riscos para a privacidade dos usuários, que acabam por abrir portas para vulnerabilidades de segurança explorados por agentes maliciosos. Com análise de casos e comparação de protocolos de termos de uso, foi possível analisar resultados que indicam a ausência de consciência do usuário e a falta de preocupação com a segurança potencializando as ameaças. Em contrapartida, o estudo propõe que a adoção de práticas de responsabilidade digital, aliada à educação de como se prevenir, estudando o uso juntamente com uma revisão periódica de permissões e históricos, é fundamental para um uso consciente, ético e seguro desses dispositivos AIoT, impedindo assim a exposição desnecessária a riscos de privacidade e segurança.
   ])
 ])
 
